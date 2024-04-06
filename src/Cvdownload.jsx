@@ -15,7 +15,7 @@ const Pdfdown = (props) => {
       const imgHeight = canvas.height;
       const ratio = Math.min(pdfWidth / imgWidth, pdfHeight / imgHeight);
       const imgX = (pdfWidth - imgWidth * ratio) / 2;
-      const imgY = 5;
+      const imgY = 2;
       pdf.addImage(
         imgData,
         "PNG",
